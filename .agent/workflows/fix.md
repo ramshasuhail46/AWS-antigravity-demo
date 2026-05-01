@@ -19,6 +19,6 @@ The user wants to transition from "Implementation" to "Verification" without man
     - **Navigate**: Open the Chrome browser and go to the GitHub "New Pull Request" page for this repo.
     - **Wait**: Explicitly wait for the page to fully load.
     - **Draft**: Use the browser tool to type a detailed summary of the fix in the 'Description' box.
-    - **Reviewer**: Search for the repository owner (the user) in the 'Reviewers' sidebar and select them.
+    - **Assignee**: Search for the repository owner (the user) in the 'Assignee' sidebar and select them.
     - **Submit**: Autonomously click the green 'Create pull request' button.
     - **Confirmation**: Take a screenshot of the completed PR page and post it as an artifact.

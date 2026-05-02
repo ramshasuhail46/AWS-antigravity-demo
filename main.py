@@ -11,6 +11,6 @@ class Order(BaseModel):
 @app.post("/calculate-total")
 async def calculate_total(order: Order):
     
-    total = order.amount - (order.amount * (order.tax_rate / 100))
+    total = order.amount + (order.amount * (order.tax_rate / 100))
 
     return {"item": order.item, "total": total}
